@@ -17,7 +17,7 @@ const {
 } = require('./lib/factors');
 
 const web3 = new Web3(
-    new Web3.providers.WebsocketProvider(`ws://localhost:8546`)
+    new Web3.providers.WebsocketProvider(`ws://192.168.38.227:8546`)
 );
 
 BigNumber.config({
